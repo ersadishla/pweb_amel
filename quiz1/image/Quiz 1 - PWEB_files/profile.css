@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+#homePage{
+  padding-top: 56px;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  font-family: 'Do Hyeon', sans-serif;
+  padding: 10px;
+  background: rgba(255, 0 ,0 ,0.8);
+  width: 300px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.openNav{
+  font-family: 'Secular One', sans-serif;
+  font-weight: 600;
+  font-size:20px;
+  cursor:pointer;
+  z-index: 4;
+  display: inline-block;
+  position: absolute;
+  padding-top:12px;
+  padding-left: 30px;
+}
+
+.mySite {
+  padding-left: 40px;
+  font-family: 'Lobster', sans-serif;
+}
+
+.bio {
+    /* padding-left: 300px; */
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+h4 {
+  padding-top: 20px;
+}
+
+#profilePicture {
+  margin-left: 13px;
+  margin-top: 20px;
+  border-radius: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+.biodata {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 15px;
+}
+
+.progress-bar {
+  background:#32324e;
+  font-size: 20px;
+}
+
+.progress{
+  height: 30px;
+}
+
+.skills {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 25px;
+}
+
+.skills > dt {
+  font-size: 20px;
+}
+.hardSkills {
+  margin-left: 300px;
+}
+
+.biodata, .description {
+  font-size: 20px;
+}
+
+.experience, .organization, .committee {
+  font-size: 20px;
+}
+
+#description{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    position: relative;
+}
+
+.sideNav {
+  height: 100%;
+  width: 0;
+  font-family: 'Londrina', sans-serif;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+
+.sideNav > h6 {
+  margin-left: 60px;
+}
+
+.sideNav > h4 {
+  margin-left: 100px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideNav .closeSidenav {
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.closeSidenav {
+  /* position: absolute; */
+  width: 20px;
+  height: 20px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.mySideNav.active {
+  margin-left: 250px;
+}
+
+#main::before{
+  content: "";
+  display: block;
+  width:180px;
+  height: 45px;
+  background: #ccc;
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.biodata {
+  margin-left: 30px
+}
+
+.sosMedIcon {
+  margin-left: 30px;
+}
+
+.sosMedInfo {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.row {
+  padding-left: 30px;
+}
+
+.description {
+  padding-left: 45px;
+}
