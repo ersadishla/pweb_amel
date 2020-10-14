@@ -34,7 +34,7 @@ body {
   z-index: 1;
 }
 
-.hero-text {
+.text {
   text-align: center;
   position:absolute;
   top: 50%;
@@ -44,16 +44,14 @@ body {
   z-index: 2;
 }
 
-.hero-text > h1 {
+.text > h1 {
   font-size: 80px;
   text-shadow: 5px 5px #555;
-  /* background: #000; */
 }
 
-.hero-text > h3  {
+.text > h3  {
   font-size: 50px;
   text-shadow: 5px 5px #555;
-  /* background: #000; */
 }
 
 .location {
@@ -256,7 +254,6 @@ footer {
   opacity:0;
   background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-  /* W3C */
   transition-duration: 0.3s;
   transition-property: transform, opacity;
 }

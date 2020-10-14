@@ -29,9 +29,6 @@
   background-image: url("image/flower.jpg");
   background-size: cover;
   -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
 }
 
 .kotak {
@@ -76,7 +73,7 @@ footer {
   position:relative;
   text-decoration: none;
   box-shadow: 0 0 1px rgba(0,0,0,0);
-  tranform: translateZ(0);
+  transform: translateZ(0);
   transition-duration: .3s;
   transition-property:transform;
 }
@@ -93,7 +90,6 @@ footer {
   opacity:0;
   background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-  /* W3C */
   transition-duration: 0.3s;
   transition-property: transform, opacity;
 }
@@ -128,7 +124,7 @@ footer {
     transform: translateY(-5px);
   }
 
-  /* untuk mengubah besar kecilnya jarak buat di bounce ketigas (terakhir bounce yaitu balik ke semula) ke bawah  */
+  /* untuk mengubah besar kecilnya jarak buat di bounce ketiga (terakhir bounce yaitu balik ke semula) ke bawah  */
   83.25% {
     transform: translateY(0px);
   }
